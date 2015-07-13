@@ -1,6 +1,6 @@
 # Construindo aplicações Híbridas com Ionic
 
-Slides from my talk at 3º CocoaHeads Fortaleza about building hybrid mobile apps with Ionic Framework.
+Slides from my talk at 2º Unidev Fortaleza about the importance of Functional Programming.
 
 ## Tools
 
