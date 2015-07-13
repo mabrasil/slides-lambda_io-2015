@@ -1,16 +1,16 @@
 {
-  "name": "aplicacoes-hibridas-com-ionic",
+  "name": "de-volta-para-o-futuro-fp",
   "version": "1.0.0",
-  "description": "Slides from my talk at CocoaHeads Fortaleza about building mobile hybrid apps with Ionic.",
-  "repository": "https://github.com/mabrasil/slides-cocoaheads-2015",
+  "description": "Slides from my talk at 2º Unidev Fortaleza about the importance of Functional Programming.",
+  "repository": "https://github.com/mabrasil/slides-unidev-2015",
   "main": "index.js",
   "scripts": {
     "test": ""
   },
   "keywords": [
     "reveal",
-    "ionic",
-    "cocoaheads"
+    "functional",
+    "unidev"
   ],
   "author": "Matheus Albuquerque Brasil",
   "license": "MIT",

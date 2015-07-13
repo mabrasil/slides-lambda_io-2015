@@ -1,4 +1,4 @@
-# De volta para o futuro: entendo a importância da programação funcional
+# De volta para o futuro: a importância da programação funcional
 
 Slides from my talk at 2º Unidev Fortaleza about the importance of Functional Programming.
 
