@@ -1,12 +1,17 @@
 doctype html
 html
-  include layouts/head
+  include inc/head
   body
     .reveal
       .slides
+        include ../slides/inicio
+        include ../slides/site-slides
+        include ../slides/matheus
+        include ../slides/ian
+        include ../slides/agenda
+        include ../slides/chamada
+        include ../slides/voltando-no-tempo
 
-        include ../slides/getReady
-        include ../slides/definition
-        include ../slides/examples
-
-    include layouts/scripts
+        include ../slides/perguntas
+        include ../slides/bye
+    include inc/scripts
