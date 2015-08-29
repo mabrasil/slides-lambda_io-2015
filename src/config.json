@@ -1,10 +1,10 @@
 {
   "about": {
-    "title": "My Awesome Presentation",
-    "description": "My Awesome Presentation @ an Awesome Event",
-    "author": "An Awesome Speaker",
+    "title": "De volta para o futuro: a importância de Funcional nos dias atuais",
+    "description": "Slides from my talk at Unidev about the importance of Functional Programming.",
+    "author": "@mabrasil_io",
     "site": {
-        "url": "https://github.com/mabrasil/xzibit",
+        "url": "https://github.com/mabrasil/slides-unidev-2015",
         "googleAnalytics": "",
         "cover": "images/meta/screenshot.png",
         "favicon": "images/meta/favicon.png"
