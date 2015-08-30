@@ -1,6 +1,6 @@
 # De volta para o futuro: a importância de funcional nos dias atuais
 
-![Screenshot](src/images/meta/screenhsot.png)
+![Screenshot](src/images/meta/screenshot.png)
 
 ## The talk
 
