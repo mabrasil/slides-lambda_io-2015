@@ -1,5 +1,7 @@
 # De volta para o futuro: a importância de funcional nos dias atuais
 
+![Screenshot](src/images/meta/screenhsot.png)
+
 ## The talk
 
 - **Title:** *De volta para o futuro: a importância de funcional nos dias atuais*
