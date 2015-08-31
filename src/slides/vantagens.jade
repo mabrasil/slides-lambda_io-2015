@@ -1,3 +1,5 @@
+- var comparison = [{lang: 'Clojure', grade: '0.41'}, {lang: 'Haskell', grade: '0.83'},{lang: 'R', grade: '0.85'},{lang: 'MATLAB', grade: '1.14'},{lang: 'JavaScript', grade: '1.27'}, {lang: 'Ruby', grade: '1.36'},{lang: 'Common Lisp', grade: '1.56'},{lang: 'Python', grade: '1.61'},{lang: 'C++', grade: '1.68'},{lang: 'C#', grade: '1.85'},{lang: 'Pascal', grade: '1.86'},{lang: 'Fortran', grade: '2.33'},{lang: 'C++', grade: '2.58'}];
+
 section
 
   section.sec-slide(data-background="#2c3e50")
@@ -8,13 +10,114 @@ section
 
   section.sec-slide(data-background="#d35400")
 
-    h2.white.fragment Tamanho do código
+    h2.white.upper.fragment Manutenibilidade
+
+  section.sec-slide(data-background="images/other/bill-gates.jpg")
+
+    h2.white.left <i>“The most important part of writing a program is designing the data structures”.</i>
+
+    p.white.right Tio Bill
+
+  section.sec-slide(data-background="#f39c12")
+
+    p.white Uma parte <strong>essencial</strong> do processo de programar é <strong>encontrar estruturas de dados adequadas</strong> para conter a informação que você precisa processar.
+
+  section.sec-slide.left(data-background="#f39c12")
+
+    h2.white Funcional...
+
+    ul
+      li.fragment Pare de escrever métodos específicos para manipular estruturas específicas
+      li.fragment Tenha certeza do que cada método faz
+
+  section.sec-slide(data-background="#f39c12")
+
+    table
+      tr
+        td <strong>Linguagem</strong>
+        td <strong>Nota</strong>
+
+      each element in comparison
+        tr
+          td= element.lang
+          td= element.grade
+
+  section.sec-slide.left(data-background="#f39c12")
+
+    h2.white Funcional...
+
+    p.fragment ✔ Legibilidade
+    p.fragment ✔ Manutenibilidade
+    p.fragment ✔ Produtividade
 
   section.sec-slide(data-background="#d35400")
 
-    h2.white.fragment Paralelização
+    h1.white.upper.fragment Paralelização
+
+  section.sec-slide(data-background="#c0392b")
+
+    h1.white.upper.left Mas antes...
+
+  section.sec-slide(data-background="#c0392b")
+
+    h1.white.upper.left Paralelismo
+    h2.white.upper.left !=
+    h1.white.upper.left Concorrência
+
+  section.sec-slide.left
+
+    h2 Concorrência...
+
+    ul
+      li.fragment <i>X</i> tarefas em um <strong>mesmo período de tempo</strong>
+      li.fragment <strong>Compartilham os recursos do sistema</strong>
+      li.fragment Logicamente independentes
+
+  section.sec-slide.left
+
+    h2 Concorrência...
+
+    p.fragment ✘ Identificar aspectos concorrentes no problema a ser resolvido
+    p.fragment ✘ Gerenciar como os dados são acessados e compartilhados entre as tarefas
+
+  section.sec-slide.left
+
+    h2 Paralelismo...
+
+    ul
+      li.fragment Divisão de uma tarefa complexa em tarefas menores
+      li.fragment Processadas de maneira independente e simultânea em <strong>múltiplas unidades de processamento</strong>
+
+  section.sec-slide.left
+
+    h2 Paralelismo...
+
+    p.fragment ✘ Mudanças no estado tem de ser conhecidas e pensadas
+
+  section.sec-slide.left(data-background="#27ae60")
+
+    h2.white Em resumo...
+
+    ul
+      li.fragment <strong>Paralelismo</strong> diz respeito a tarefas que rodam ao mesmo tempo, em múltiplos hardwares.
+      li.fragment <strong>Concorrência</strong> diz respeito a tarefas que podem rodar independentemente, compartilhando hardwre.
+
+
+  section.sec-slide.left(data-background="#27ae60")
+
+    h1.white.upper Voltando...
 
   section.sec-slide(data-background="#d35400")
 
-    h2.white.fragment Reuso
+    h1.white.upper.fragment Paralelização
+
+  section.sec-slide(data-background="images/other/selvagens-a-procura-de-lei.jpg")
+
+    h2.white.left <i>“Você é a estrela negra da sexta-feira; Você é a grande sacada”.</i>
+
+    p.white.right Amigos Libertinos - Selvagens à Procura de Lei
+
+  section.sec-slide(data-background="#d35400")
+
+    h1.white.upper.fragment Reuso
 
