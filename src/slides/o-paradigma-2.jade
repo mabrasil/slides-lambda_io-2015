@@ -1,0 +1,82 @@
+section
+
+  section.sec-slide(data-background="#d35400")
+
+    h2.white.upper O paradigma
+    h1.white.upper Funcional
+
+  section.sec-slide.left
+
+    h3 Pure Functions
+
+    pre
+      code.
+        --| Exemplos
+
+        quadrado :: Integer -> Integer
+        quadrado x = x * x
+
+        somaTres :: Integer -> Integer -> Integer -> Integer
+        somaTres x y z = x + y + z
+
+        fatorial :: Integer -> Integer
+        fatorial n = product [1..n]
+
+  section.sec-slide.left
+
+    h3 High-Order Functions
+
+    pre
+      code.
+        --| Exemplos
+
+        map :: (a -> b) -> [a] -> [b]
+        filter :: (a -> Bool) -> [a] -> [a]
+        foldr :: (a -> b -> b) -> b -> [a] -> b
+
+  section.sec-slide.left
+
+    h3 First-Order Functions
+
+    pre
+      code.
+        var add = function(a, b){
+          return a + b
+        }
+
+  section.sec-slide.left
+
+    h3 Closures
+
+    pre
+      code.
+        var add = function(a){
+          return function(b){
+            return a + b
+          }
+        }
+
+        var add2 = add(2)
+        add2(3) // => 5
+
+  section.sec-slide.left
+
+    h3 Pattern Matching
+
+    pre
+      code.
+        checaIntervalo :: (Integral a) => a -> String
+        checaIntervalo 1 = "Um"
+        checaIntervalo 2 = "Dois"
+        checaIntervalo 3 = "Três"
+        checaIntervalo 4 = "Quatro"
+        checaIntervalo 5 = "Cinco"
+        checaIntervalo x = "Não tá no intervalo"
+
+  section.sec-slide.left
+
+    h3 List Comprehensions
+
+    pre
+      code.
+        quadrado = [ x*x | x <- nums, x > 2 ]
