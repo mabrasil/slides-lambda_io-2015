@@ -80,3 +80,12 @@ section
     pre
       code.
         quadrado = [ x*x | x <- nums, x > 2 ]
+
+  section.sec-slide.left
+
+    h3 Curry/Uncurry
+
+    pre
+      code.
+        curry :: ((a, b) -> c) -> a -> b -> c
+        uncurry :: (a -> b -> c) -> (a, b) -> c
