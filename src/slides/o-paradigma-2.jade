@@ -45,21 +45,6 @@ section
 
   section.sec-slide.left
 
-    h3 Closures
-
-    pre
-      code.
-        var add = function(a){
-          return function(b){
-            return a + b
-          }
-        }
-
-        var add2 = add(2)
-        add2(3) // => 5
-
-  section.sec-slide.left
-
     h3 Pattern Matching
 
     pre
@@ -79,6 +64,12 @@ section
     pre
       code.
         quadrado = [ x*x | x <- nums, x > 2 ]
+
+        -- | Se lembram do map?
+        [x+3 | x <- [1,5,3,1,6]]
+
+        -- | Com um predicado...
+        [ 2*x | x <- [0..], x^2 > 3 ]
 
   section.sec-slide.left
 
