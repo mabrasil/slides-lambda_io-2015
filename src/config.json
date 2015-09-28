@@ -4,7 +4,7 @@
     "description": "Slides from my talk at Unidev about the importance of Functional Programming.",
     "author": "@mabrasil_io",
     "site": {
-        "url": "https://github.com/mabrasil/slides-unidev-2015",
+        "url": "http://mabrasil.github.io/talks/2015/unidev",
         "googleAnalytics": "",
         "cover": "images/meta/screenshot.png",
         "favicon": "images/meta/favicon.png"
