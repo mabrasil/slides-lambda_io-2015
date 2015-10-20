@@ -57,6 +57,12 @@ section
         checaIntervalo 5 = "Cinco"
         checaIntervalo x = "Não tá no intervalo"
 
+        --| Se lembram do fatorial?
+
+        fatorial :: (Integral a) => a -> a
+        fatorial 0 = 1
+        fatorial n = n * fatorial (n - 1)
+
   section.sec-slide.left
 
     h3 List Comprehensions
@@ -79,3 +85,8 @@ section
       code.
         curry :: ((a, b) -> c) -> a -> b -> c
         uncurry :: (a -> b -> c) -> (a, b) -> c
+
+  section.sec-slide(data-background="#d35400")
+
+    h1.white ...
+
