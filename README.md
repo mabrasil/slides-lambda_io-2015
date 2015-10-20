@@ -5,9 +5,9 @@
 ## The talk
 
 - **Title:** *De volta para o futuro: a importância de funcional nos dias atuais*
-- **When:** September, 19
-- **Where:** Universidade de Fortaleza - Unifor.
-- **Attendees:** ≈50
+- **When:** October, 20
+- **Where:** Universidade Federal do Ceará - Campus do Pici.
+- **Attendees:** ≈
 - **Description:** [Ian](https://github.com/IanRamosC) and I will highlight certain parts of large project development where functional programming may be the right choice. We'll show a little on history and also why and how functional programming has been being the best alternative to scale.
 - **Presentation:** [See it live here](http://mabrasil.github.io/talks/2015/unidev/).
 
