@@ -1,12 +1,12 @@
 {
   "about": {
     "title": "De volta para o futuro: a importância de Funcional nos dias atuais",
-    "description": "Slides from my talk at Unidev about the importance of Functional Programming.",
+    "description": "Slides from my talk at SETIC about the importance of Functional Programming.",
     "author": "@mabrasil_io",
     "site": {
-        "url": "http://mabrasil.github.io/talks/2015/unidev",
+        "url": "http://mabrasil.github.io/talks/2015/setic",
         "googleAnalytics": "",
-        "cover": "images/meta/screenshot.png",
+        "cover": "http://mabrasil.github.io/talks/2015/setic/images/meta/screenshot.png",
         "favicon": "images/meta/favicon.png"
     }
   },
