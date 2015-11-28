@@ -55,7 +55,7 @@ section
         checaIntervalo 3 = "Três"
         checaIntervalo 4 = "Quatro"
         checaIntervalo 5 = "Cinco"
-        checaIntervalo x = "Não tá no intervalo"
+        checaIntervalo _ = "Não tá no intervalo"
 
         --| Se lembram do fatorial?
 
@@ -69,13 +69,13 @@ section
 
     pre
       code.
-        quadrado = [ x*x | x <- nums, x > 2 ]
+        quadrado = [ x * x | x <- nums, x > 2 ]
 
         -- | Se lembram do map?
         [x+3 | x <- [1,5,3,1,6]]
 
         -- | Com um predicado...
-        [ 2*x | x <- [0..], x^2 > 3 ]
+        [ 2*x | x <- [0..], x ^ 2 > 3 ]
 
   section.sec-slide.left
 
